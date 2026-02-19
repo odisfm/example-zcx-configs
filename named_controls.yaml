@@ -238,7 +238,14 @@ __page_changer:
 #   gestures:
 #     short_press: DUMMY
 #     long_press: DUMMY
-  
+
+__scene_group:
+  includes: [scene_1, scene_2, scene_3, scene_4, scene_5, scene_6, scene_7, scene_8]
+  color: white
+  gestures:
+    press: SCENE ${ring.scenes[me.Index]}
+    press__select: SCENE SEL ${ring.scenes[me.Index]}
+
 # scene_1:
 #   gestures:
 #     short_press: DUMMY
