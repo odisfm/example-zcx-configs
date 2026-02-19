@@ -5,3 +5,5 @@ pages:
     - actions_bottom
   blank_page:
     - blank_section
+  keyboard:
+    - __keyboard
