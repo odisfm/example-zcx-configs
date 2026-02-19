@@ -305,15 +305,23 @@ __scene_group:
 #     short_press: DUMMY
 #     long_press: DUMMY
   
-# device:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+device:
+  type: mode
+  mode: device
+  active_color: 127
+  inactive_color: 20
+  gestures:
+    press:
+      mode_on: device
   
-# mix:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+mix:
+  type: mode
+  mode: mix
+  active_color: 127
+  inactive_color: 20
+  gestures:
+    press:
+      mode_on: mix
   
 # browse:
 #   gestures:

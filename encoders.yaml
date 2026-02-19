@@ -1,8 +1,12 @@
 
 __enc_group:
   includes: [enc_1, enc_2, enc_3, enc_4, enc_5, enc_6, enc_7, enc_8]
-  binding: >
-    RING(${me.index}) / VOL
+  binding:
+    default: NONE
+    __mix: >
+      RING(${me.index}) / VOL
+    __device: >
+      SEL / DEV(SEL) B1 P${me.Index}
 
 # enc_1:
 #   binding:
@@ -43,7 +47,9 @@ enc_master:
 
 tempo:
   binding:
-    default: NONE
+    default: >
+      "tempo control" / DEV(1) "tempo"
+  sensitivity: 0.4
 
 swing:
   binding:
