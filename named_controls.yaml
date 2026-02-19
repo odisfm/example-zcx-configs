@@ -13,10 +13,12 @@ metronome:
     short_press: METRO
     long_press: DUMMY
   
-# delete:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+delete:
+  gestures:
+    press:
+      mode_on: delete
+    release:
+      mode_off: delete
   
 undo:
   gestures:
