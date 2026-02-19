@@ -1,0 +1,16 @@
+__solo_group:
+  includes: [select_1, select_2, select_3, select_4, select_5, select_6, select_7, select_8]
+  type: param
+  binding: >
+    RING(${me.index}) / SOLO
+  on_color: blue
+  off_color: white
+
+solo:
+  color:
+    pulse: blue
+  gestures:
+    press:
+      overlay:
+        toggle: solo
+  

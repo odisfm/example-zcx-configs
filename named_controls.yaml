@@ -30,6 +30,13 @@ mute:
   binding: SEL / MUTE
   on_color: orange
   off_color: white
+  toggle_param: false
+  gestures:
+    short_press:
+      do_toggle: true
+    long_press:
+      overlay:
+        toggle: mute
 
   
 solo:
@@ -37,6 +44,13 @@ solo:
   binding: SEL / SOLO
   on_color: blue
   off_color: white
+  toggle_param: false
+  gestures:
+    short_press:
+      do_toggle: true
+    long_press:
+      overlay:
+        toggle: solo
 
   
 stop_clip:
