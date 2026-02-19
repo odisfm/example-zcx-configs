@@ -329,10 +329,12 @@
 #     short_press: DUMMY
 #     long_press: DUMMY
   
-# select:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+select:
+  gestures:
+    press:
+      mode_on: select
+    release:
+      mode_off: select
   
 shift:
   gestures:
