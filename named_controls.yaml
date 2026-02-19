@@ -6,10 +6,12 @@ tap_tempo:
   gestures:
     press: TAPBPM
   
-# metronome:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+metronome:
+  type: transport
+  transport: metronome
+  gestures:
+    short_press: METRO
+    long_press: DUMMY
   
 # delete:
 #   gestures:
@@ -63,20 +65,29 @@ duplicate:
 #     short_press: DUMMY
 #     long_press: DUMMY
   
-# automate:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+automate:
+  type: transport
+  transport: automation
+  active_color: red
+  inactive_color: white
+  gestures:
+    short_press: SATM
+    long_press: DUMMY
   
-# record:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+record:
+  type: transport
+  transport: record
+  gestures:
+    short_press: SREC
+    long_press: DUMMY
   
-# play:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+play:
+  active_color: pink
+  type: transport
+  transport: play
+  gestures:
+    short_press: SETPLAY
+    long_press: DUMMY
   
 # touchstrip:
 #   gestures:
