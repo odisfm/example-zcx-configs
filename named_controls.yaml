@@ -114,6 +114,8 @@ __track_row:
       "${me.track}" / ARM
     long_press__shift: >
       "${me.track}" / ARM
+    long_press__delete: >
+      "${me.track}" / DEL
     double_click: >
       "${me.track}" / PLAY >
 
