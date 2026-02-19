@@ -2,10 +2,9 @@
 ### left side
 ###
 
-# tap_tempo:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+tap_tempo:
+  gestures:
+    press: TAPBPM
   
 # metronome:
 #   gestures:
@@ -17,10 +16,10 @@
 #     short_press: DUMMY
 #     long_press: DUMMY
   
-# undo:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+undo:
+  gestures:
+    press: UNDO
+    press__shift: REDO
   
 # mute:
 #   gestures:
@@ -37,25 +36,22 @@
 #     short_press: DUMMY
 #     long_press: DUMMY
   
-# convert:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+convert:
+  gestures:
+    short_press: CLIP TOMIDI MELODY
   
-# double_loop:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+double_loop:
+  gestures:
+    short_press: CLIP EXTEND
   
-# quantize:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+quantize:
+  gestures:
+    short_press: CLIP QNTZ 1/16 50
+    long_press: CLIP QNTZ 1/16 100
   
-# duplicate:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+duplicate:
+  gestures:
+    short_press: SCENE DUPE
   
 # new:
 #   gestures:
@@ -259,25 +255,25 @@
 #     short_press: DUMMY
 #     long_press: DUMMY
   
-# dpad_up:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+dpad_up:
+  repeat: true
+  gestures:
+    press: UP
   
-# dpad_right:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+dpad_right:
+  repeat: true
+  gestures:
+    press: RIGHT
   
-# dpad_down:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+dpad_down:
+  repeat: true
+  gestures:
+    press: DOWN
   
-# dpad_left:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+dpad_left:
+  repeat: true
+  gestures:
+    press: LEFT
   
 # repeat:
 #   gestures:
