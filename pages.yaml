@@ -7,3 +7,5 @@ pages:
     - blank_section
   keyboard:
     - __keyboard
+  session_view:
+    - __session_view
