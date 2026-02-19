@@ -221,6 +221,7 @@
 
 # col 8
 - 
+  color: white
   type: standard
   gestures:
     short_press: DUMMY

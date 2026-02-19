@@ -31,3 +31,6 @@ actions_bottom:
   row_end: 7
   col_start: 0
   col_end: 7
+  template:
+    color:
+      palette: rainbow
