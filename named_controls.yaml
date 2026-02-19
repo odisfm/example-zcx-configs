@@ -349,25 +349,42 @@ dpad_left:
 #     short_press: DUMMY
 #     long_press: DUMMY
   
-# octave_up:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+octave_up:
+  gestures:
+    press:
+      ring:
+        y: -8
+    press__shift:
+      ring:
+        y: -1
   
-# octave_down:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+octave_down:
+  gestures:
+    press:
+      ring:
+        y: 8
+    press__shift:
+      ring:
+        y: 1
   
-# page_prev:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+page_prev:
+  gestures:
+    press:
+      ring:
+        x: -8
+    press__shift:
+      ring:
+        x: -1
   
-# page_next:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+page_next:
+  gestures:
+    press:
+      ring:
+        x: 8
+    press__shift:
+      ring:
+        x: 1
+  
   
 select:
   gestures:
