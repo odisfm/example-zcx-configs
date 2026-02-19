@@ -25,20 +25,25 @@ undo:
     press: UNDO
     press__shift: REDO
   
-# mute:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+mute:
+  type: param
+  binding: SEL / MUTE
+  on_color: orange
+  off_color: white
+
   
-# solo:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+solo:
+  type: param
+  binding: SEL / SOLO
+  on_color: blue
+  off_color: white
+
   
-# stop_clip:
-#   gestures:
-#     short_press: DUMMY
-#     long_press: DUMMY
+stop_clip:
+  type: param
+  binding: SEL / STOP
+  on_color: white
+  off_color: grey
   
 convert:
   gestures:
