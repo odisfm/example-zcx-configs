@@ -128,7 +128,20 @@ duplicate:
 #   gestures:
 #     short_press: DUMMY
 #     long_press: DUMMY
-  
+
+__page_changer:
+  includes: [state_1, state_2, state_3, state_4, state_5, state_6, state_7, state_8]
+  type: page
+  page: ${me.index}
+  active_color: white
+  inactive_color:
+    palette: rainbow
+  gestures:
+    press:
+      page: ${me.index}
+    long_release:
+      page: last
+
 # state_1:
 #   gestures:
 #     short_press: DUMMY
