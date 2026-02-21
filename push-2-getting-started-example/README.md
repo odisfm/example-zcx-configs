@@ -1,0 +1,1 @@
+This is the config I built in [this video](https://www.youtube.com/watch?v=BPShQoL-MRM) for the [getting started with zcx](https://www.youtube.com/watch?v=_xLHWf9I4Ak&list=PLwhKJvpLktV999uaQvgjpENpe3SqJhSiK&index=1) tutorial series.
